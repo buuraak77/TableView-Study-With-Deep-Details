@@ -13,6 +13,8 @@
 		65A24DB428859C7000974E8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A24DB228859C7000974E8B /* Main.storyboard */; };
 		65A24DB628859C7100974E8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65A24DB528859C7100974E8B /* Assets.xcassets */; };
 		65A24DB928859C7100974E8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A24DB728859C7100974E8B /* LaunchScreen.storyboard */; };
+		65A24DC128859D2800974E8B /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A24DC028859D2800974E8B /* FoodTableViewCell.swift */; };
+		65A24DC328859E0700974E8B /* FoodInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A24DC228859E0700974E8B /* FoodInfos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		65A24DB528859C7100974E8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65A24DB828859C7100974E8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65A24DBA28859C7100974E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65A24DC028859D2800974E8B /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		65A24DC228859E0700974E8B /* FoodInfos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodInfos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				65A24DAE28859C7000974E8B /* SceneDelegate.swift */,
 				65A24DB028859C7000974E8B /* ViewController.swift */,
 				65A24DB228859C7000974E8B /* Main.storyboard */,
+				65A24DC028859D2800974E8B /* FoodTableViewCell.swift */,
+				65A24DC228859E0700974E8B /* FoodInfos.swift */,
 				65A24DB528859C7100974E8B /* Assets.xcassets */,
 				65A24DB728859C7100974E8B /* LaunchScreen.storyboard */,
 				65A24DBA28859C7100974E8B /* Info.plist */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65A24DC328859E0700974E8B /* FoodInfos.swift in Sources */,
 				65A24DB128859C7000974E8B /* ViewController.swift in Sources */,
+				65A24DC128859D2800974E8B /* FoodTableViewCell.swift in Sources */,
 				65A24DAD28859C7000974E8B /* AppDelegate.swift in Sources */,
 				65A24DAF28859C7000974E8B /* SceneDelegate.swift in Sources */,
 			);
